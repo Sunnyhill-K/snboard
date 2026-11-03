@@ -7,6 +7,11 @@
    "role": "admin",
    "salt": "cPcckFMX8mqPmaM4RPBVhg==",
    "ct": "CfVTf35Kcmv34Qp4MHCEDG3tCGHt3hsy5FxVjBSQv1VJJMJJk+0iGXof7E02V6z7EBH5ltmgPDsQZ57JpaotuYp0mM81Sb3lZRRHvXwGPFvvNHn+IT2p9IgyiUIfxSSQQxuXeZbd+YE3dj+W4yH16MJFvSYni2xHT1dp0eHDtRVJ6oUmJqY="
+  },
+  "guest": {
+   "role": "viewer",
+   "salt": "7trhTwLzEiavPli0WYErzA==",
+   "ct": "7cSGSguFh88b5TKQzlwgsJiXUpPJDbCmQX64/1EKGtozEqAp0WAh6bkH/Gcwppdosz4YotA2ceO5OHX7LCqyR71LhUxxzZ7NY1wyybkSKocR"
   }
  }
 }
