@@ -1,13 +1,12 @@
 {
- "v": 1,
+ "v": 2,
  "iter": 310000,
- "viewer": {
-  "salt": "9q5LCz6rYWmPIgvL84VB5Q==",
-  "ct": "pFTVOW6LpYpvF8kkjwFxCzfPNgxpBR0zTCnK9cKW3WAEwuO13OgKpyJP+kk/ULeloIPFauoXpUez9d8qe/btd6M8AO8B669db5/dYN7jv+fH"
- },
- "editor": {
-  "salt": "LS0bpWqSHlZz4NOgkRtS0g==",
-  "ct": "8+KtDnGe/KwKNiJPqVPwgpWiLnwYwH9Ikeo9Alzn8MP4LNHdkbIffvyuyw7UPT4NqaR5vPA/4OnXZLtfWtgEpvMwRbfAKAMNC50FVtpzeLObAy5iSshZBkBd5RUYwPD5WtTQ/OH5sw4GzwURy7WpeoyIN/nKBQky71Jy4U3OM5R/o2T67ZM="
- },
- "tok": null
+ "tok": null,
+ "users": {
+  "sunil": {
+   "role": "admin",
+   "salt": "cPcckFMX8mqPmaM4RPBVhg==",
+   "ct": "CfVTf35Kcmv34Qp4MHCEDG3tCGHt3hsy5FxVjBSQv1VJJMJJk+0iGXof7E02V6z7EBH5ltmgPDsQZ57JpaotuYp0mM81Sb3lZRRHvXwGPFvvNHn+IT2p9IgyiUIfxSSQQxuXeZbd+YE3dj+W4yH16MJFvSYni2xHT1dp0eHDtRVJ6oUmJqY="
+  }
+ }
 }
