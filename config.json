@@ -10,11 +10,6 @@
    "salt": "O1XZDPoUTrL7Gthcd7xZ/w==",
    "ct": "Zrh9ON/HKgTIySWPxM5ggw04RBpaBb1a/TR3akJAxWmJbeJhmlG+ShmsVqLrXDLkqYMQBM2nZozmhXR1C2QNoDDxQFXeDKrpB4SxtsF8+f+hIeLnDD54ZOAPhQjQZCdqA/hxJ48BbzD7fs0FU5B4gXKqv74RNaLhhN0nZZ8vi87i9vI="
   },
-  "guest": {
-   "role": "viewer",
-   "salt": "6CQy6LbATqyoo4S3dXXmhw==",
-   "ct": "vKBD1yxXl9IeB4l5Qrg71yMQ07tQqK/0RAuSyy46UKG56Lt5j1X2YYP03c2vNO4bYSFyXhQfFxwzFtY5f5b2EXtOI1on1xofC8NM3FOWuXV9"
-  },
   "sonnim": {
    "role": "viewer",
    "salt": "z7+jAYtLg/5O0l3mkP6sww==",
