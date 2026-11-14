@@ -1,0 +1,20 @@
+<!doctype html><html lang="ko"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"><title>기출 001 무임승차 1편 대본</title>
+<style>body{margin:0; padding:28px 16px; background:#EEEAE3; color:#222; font:15px/1.7 system-ui, sans-serif} a{color:inherit}</style></head>
+<body><p id="m">여는 중입니다</p><script>
+(async function(){
+  var m = document.getElementById('m'), S = null;
+  try { S = JSON.parse(localStorage.getItem('snb-keys') || 'null'); } catch(e) {}
+  if (!S || !S.k) { (window.top !== window ? window.top.location : location).replace('./?next=' + encodeURIComponent('sno-shorts-001-1.html' + location.hash)); return; }
+  if (S.role !== 'admin' || !S.m) { m.innerHTML = '이 화면은 관리자만 볼 수 있습니다. <a href="./" target="_top">인스타 카드 보관함으로</a>'; return; }
+  try {
+    var r = await fetch('sno-shorts-001-1.bin?v=' + Date.now(), {cache: 'no-store'});
+    if (r.status === 404) { m.innerHTML = '지금 올라간 편이 없습니다. <a href="./" target="_top">인스타 카드 보관함으로</a>'; return; }
+    if (!r.ok) throw new Error('받기 ' + r.status);
+    var b = new Uint8Array(await r.arrayBuffer()), raw = Uint8Array.from(atob(S.m), function(c){ return c.charCodeAt(0); });
+    var k = await crypto.subtle.importKey('raw', raw, 'AES-GCM', false, ['decrypt']);
+    var html = new TextDecoder().decode(await crypto.subtle.decrypt({name: 'AES-GCM', iv: b.subarray(0, 12)}, k, b.subarray(12)));
+    document.open(); document.write(html); document.close();
+  } catch(e) { m.textContent = '열지 못했습니다(' + (e.message || e) + '). 새로고침해 주세요'; }
+})();
+</script></body></html>

@@ -1,0 +1,19 @@
+{
+ "v": 2,
+ "iter": 310000,
+ "tok": {
+  "ct": "/DVHC9Cvm5J+gE0k0k42shNV0eV2XzxzDba/9zEaBSkF7EMj5aNnixZEqzcLqSox5mEVftw7CMQ4Z8TttQ2MYnMQcmd6eumqIW3ppOUeKskqH/AAqjMgcs/Zmh2H+9Q1LbIMaxcHDKIzuVjdANfHmD9UA+Eg5Nc9nQ=="
+ },
+ "users": {
+  "sunil": {
+   "role": "admin",
+   "salt": "O1XZDPoUTrL7Gthcd7xZ/w==",
+   "ct": "Zrh9ON/HKgTIySWPxM5ggw04RBpaBb1a/TR3akJAxWmJbeJhmlG+ShmsVqLrXDLkqYMQBM2nZozmhXR1C2QNoDDxQFXeDKrpB4SxtsF8+f+hIeLnDD54ZOAPhQjQZCdqA/hxJ48BbzD7fs0FU5B4gXKqv74RNaLhhN0nZZ8vi87i9vI="
+  },
+  "sonnim": {
+   "role": "viewer",
+   "salt": "z7+jAYtLg/5O0l3mkP6sww==",
+   "ct": "qRUha2MHyKVg9VOcSaiTAO3DH5BuDpJwXKFdlX4aWAZzWGtXl/Vb+IUKiPV60HL3SKbV6X6UE0036Cav2riOR3485DdCuE3By45X2uGM0jxo"
+  }
+ }
+}
